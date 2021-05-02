@@ -1,7 +1,7 @@
 #!/bin/bash
 
 var="echo $HOME"
-mkdir /home/asaf
+mkdir /var/jenkins_home/workspace/Github
 
 if [ $var == $pwd ]
 then
