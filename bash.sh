@@ -2,12 +2,12 @@
 
 var="echo $HOME"
 
-if [ $var = $pwd ]
+if [ $var == $pwd ]
 then
-echo "$var folder is at the same location as my current pwd"
+echo "$var match!"
 elif [ $var != $pwd ] 
 then
-echo "$var folder is not the same location as my current pwd"
+echo "$var not match"
 else echo "Nothing special fuck off"
 fi
 
