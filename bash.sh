@@ -1,6 +1,7 @@
 #!/bin/bash
 
 var="echo $HOME"
+mkdir /home/asaf
 
 if [ $var == $pwd ]
 then
