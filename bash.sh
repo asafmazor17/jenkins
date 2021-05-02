@@ -10,3 +10,5 @@ then
 echo "$var folder is not the same location as my current pwd"
 else echo "Nothing special fuck off"
 fi
+
+pwd
