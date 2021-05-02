@@ -1,14 +1,11 @@
 #!/bin/bash
 
-mkdir test
+var="echo $HOME"
 
-echo "Please enter a file type"
-read FILE
-
-if [ -f $FILE ]
+if [ $var = $pwd ]
 then
-echo "$FILE is a folder"
-elif [ -d $FILE ] 
+echo "$var folder is at the same location as my current pwd"
+elif [ $var != $pwd ] 
 then
-echo "$FILE is a dir"
-else echo "Nothing special"
+echo "$var folder is not the same location as my current pwd"
+else echo "Nothing special fuck off"
